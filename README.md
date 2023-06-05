@@ -30,4 +30,16 @@ Olá! Meu nome é Vitor Zen e sou um desenvolvedor de software fullstack.
 - Aprendizado contínuo
 - Colaboração em projetos desafiadores
 
+## Tecnologias utilizadas no projeto
+
+- HTML
+- CSS
+- JavaScript
+- Axios API
+- Node.js
+- TypeScript
+- Vue 3
+- Vue Router
+- Pinia
+
 Sinta-se à vontade para entrar em contato comigo por email ou através do LinkedIn. Estou sempre aberto a novas oportunidades e colaborações.
