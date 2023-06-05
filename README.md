@@ -30,6 +30,10 @@ Olá! Meu nome é Vitor Zen e sou um desenvolvedor de software fullstack.
 - Aprendizado contínuo
 - Colaboração em projetos desafiadores
 
+## Informações gerais
+
+O projeto **Dockwise Technologies** é um sistema de _controle de ações portuárias_. Seu objetivo é trazer as informações evidenciadas pelo setor de operações para que tenha um controle dos containers que estão sendo analisados pela empresa.
+
 ## Tecnologias utilizadas no projeto
 
 - HTML
