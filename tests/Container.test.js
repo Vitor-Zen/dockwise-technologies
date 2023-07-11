@@ -65,8 +65,8 @@ describe("Dockwise Technologies - Testes Unitários", () => {
   test("Deve retornar o termo da sequência fibonacci", () => {
     expect(fibonacciSequence(0)).toBe(1);
     expect(fibonacciSequence(1)).toBe(1);
-    expect(fibonacciSequence(2)).toBe(3);
-    expect(fibonacciSequence(7)).toBe(13);
+    expect(fibonacciSequence(2)).toBe(2);
+    expect(fibonacciSequence(6)).toBe(13);
   });
   test("Deve retornar um objeto de um container", () => {
     const container = {
@@ -86,15 +86,21 @@ describe("Dockwise Technologies - Testes Unitários", () => {
       type: "Exportação",
       client: "Maersk",
     };
-    expect(createContainerHandling(container, "Gate Out", "17/07/2022", "18/07/2022")).toEqual({
-      container: {
-        container: "ASDA1234567",
-        type: "Exportação",
-        client: "Maersk",
-      },
-      handling: "Gate Out",
-      initialTime: "17/07/2022",
-      finalTime: "18/07/2022",
-    });
+
+    const valorFuncao = createContainerHandling(container, "Gate Out", "17/07/2022", "18/07/2022")
+    expect(
+      valorFuncao
+    ).toEqual(
+      {
+        container: {
+          container: "ASDA1234567",
+          type: "Exportação",
+          client: "Maersk",
+        },
+        handling: "Gate Out",
+        initialTime: "17/07/2022",
+        finalTime: "18/07/2022",
+      }
+    );
   });
 });

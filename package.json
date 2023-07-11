@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watchAll",
-    "test:categoria": "jest -t Categoria"
+    "test:watch": "jest --watchAll"
   },
   "author": "João Victor e Vitor Zen",
   "license": "ISC",
